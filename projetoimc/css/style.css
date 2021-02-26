@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;0,700;1,100;1,500;1,600&display=swap');
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid green; */
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+    
+}
+header img{
+    display: inline-block;
+    margin-left: 250px;
+    width: 100px;
+    
+    
+}
+header nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 400px;
+    margin-top: 8px;
+    margin-right: 250px;
+}
+nav a{
+    color: black;
+    padding-left: 97px;
+    font-size: 14px;
+    text-decoration: none;
+    flex-direction: row;
+    transition: color .5s;
+    font-weight: 700;
+
+}
+nav a:hover{
+    color:  #ed26bd;
+}
+#imagem{
+    display: inline-block;
+    margin-left: 9.93cm;
+    margin-top: 70px;
+   
+}
+#imagem img{
+    width: 75%;
+}
+#lateral{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+#lateral h1{
+    color:  #ed26bd;
+    font-size: 40px;
+}
+#altura , #peso{
+    border-radius: 10px;
+    background-color: #d8cece;
+    border: none;
+    height: 30px;
+    color: black;
+    font-weight: 700;
+    width: 150px;
+    text-align: center;
+
+}
+#peso{
+    margin-left: 20px;
+}
+#qsp{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 55px;
+}
+#qsa{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+#privacidade{
+    display: inline-block;
+    text-decoration: none;
+    color: #ed26bd;
+    padding-top: 13px;
+    font-size: 14px;
+
+}
+footer p{
+    display: inline-block;
+    
+}
+#final{
+
+    display: flex;
+    width: 80%;
+    margin-left: 150px;
+    border-top: 1px solid #4d4d4d;
+    padding-left: 400px;
+    margin-top: 70px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+#script p{
+    display: inline-block;
+    font-weight: 700;
+}
+#fixo{
+    font-size: 30px;
+    margin-bottom: 0;
+
+}
+#valor{
+    color: #ed26bd;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+#texto{
+    margin-top: -40px;
+    font-size: 15px;
+}
